@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bimg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry Logs"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*"
+                android:outlineSpotShadowColor="@color/white">
+
+                <!-- Table Header Row -->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="S.No."
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ICU Name"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Staff Name"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Staff Post"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entry Time"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purpose"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Operation No"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bet Pat"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bef Asept"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aft BF"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aft Pat"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aft PSurr"
+                        android:textStyle="bold"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</LinearLayout>

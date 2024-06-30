@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bimg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvStaffEntryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Staff Entry"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the ICU Name:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgIcuName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textColor="@color/white">
+
+            <RadioButton
+                android:id="@+id/rbMicu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MICU"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbTicu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TICU"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbActvs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACTVS"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbNicu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NICU"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/rbPicu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PICU"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in the Staff Name:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/etStaffName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Staff Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in Staff Post:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/etStaffPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Staff Post"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fill in Entry Time:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/etEntryTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entry Time"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Purpose of Visit:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/etPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Purpose"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Patient Observations to be Done:"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/etNumObservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of Observations"
+            android:inputType="number"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            />
+
+        <Button
+            android:id="@+id/btnSubmitForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+
+    </LinearLayout>
+</ScrollView>

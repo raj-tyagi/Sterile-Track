@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bimg">
+
+    <!-- Log Out TextView -->
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:paddingTop="8dp"
+
+        android:paddingEnd="16dp"
+        android:text="Log Out"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Reduced Space -->
+    <!-- Adjust the height as per your requirement -->
+
+    <!-- Home Screen Title TextView -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="341dp"
+        app:srcCompat="@drawable/img2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Abord !!"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="30dp" />
+
+    <!-- Button for Data Entry -->
+    <Button
+        android:id="@+id/btnBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Entry"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button for Entry Logs -->
+    <Button
+        android:id="@+id/btnTableGenerator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry Logs"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

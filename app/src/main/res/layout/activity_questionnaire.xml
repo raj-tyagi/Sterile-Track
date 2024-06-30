@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bimg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hygine Details"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operation/Observation Number:"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etOperationNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Before Patient Assessment (Bet - pat)"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/rgBetPat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Wash" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Rub" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Partial Compliance" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Missed" android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Before Aseptic Procedure (Bef-asept)"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/rgBefAsept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Wash" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Rub" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Partial Compliance" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Missed" android:textColor="@color/white"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. After Body Fluids (aft- b.f.)"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/rgAftBF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hand Wash"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hand Rub"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Partial Compliance"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Missed"
+                android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. After Patient Contact (aft- pat)"
+            android:textColor="@color/white"
+
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgAftPat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Wash" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Rub" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Partial Compliance" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Missed" android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. After Patient Surroundings (aft p .surr)"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/rgAftPSurr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Wash" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hand Rub" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Partial Compliance" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Missed" android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Gloves Utilization"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/rgGloves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Yes" android:textColor="@color/white"/>
+            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No" android:textColor="@color/white"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmitQuestionnaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>
