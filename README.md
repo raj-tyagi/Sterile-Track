@@ -1,4 +1,4 @@
-# SterileTrack
+# SterileTrack 
 
 SterileTrack is an Android application designed to monitor and improve hand hygiene practices among medical staff in ICU settings. The app utilizes Firebase for real-time data storage and provides a streamlined interface for data entry and monitoring.
 
