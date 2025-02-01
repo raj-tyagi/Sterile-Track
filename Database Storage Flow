@@ -1,0 +1,119 @@
+Firebase Root 
+|
+└─── entries
+      |
+      ├─── entryId1
+      |      |
+      |      ├─── staffEntries
+      |      |      |
+      |      |      ├─── staffEntryId1
+      |      |      |      |
+      |      |      |      ├─── icuNumber: "1"
+      |      |      |      ├─── staffName: "John Doe"
+      |      |      |      ├─── staffPost: "Doctor"
+      |      |      |      ├─── entryTime: "10:00 AM"
+      |      |      |      ├─── purpose: "Diagnosis"
+      |      |      |      └─── observations
+      |      |      |              |
+      |      |      |              ├─── observationId1
+      |      |      |              |      |
+      |      |      |              |      ├─── operationNo: "1"
+      |      |      |              |      ├─── betPat: "HR"
+      |      |      |              |      ├─── befAsept: "HW"
+      |      |      |              |      ├─── aftBF: "PC"
+      |      |      |              |      ├─── aftPat: "Missed"
+      |      |      |              |      └─── aftPSurr: "Gloves"
+      |      |      |              |
+      |      |      |              └─── observationId2
+      |      |      |                     |
+      |      |      |                     ├─── operationNo: "2"
+      |      |      |                     ├─── betPat: "HR"
+      |      |      |                     ├─── befAsept: "HW"
+      |      |      |                     ├─── aftBF: "PC"
+      |      |      |                     ├─── aftPat: "Missed"
+      |      |      |                     └─── aftPSurr: "Gloves"
+      |      |      |
+      |      |      └─── staffEntryId2
+      |      |             |
+      |      |             ├─── icuNumber: "2"
+      |      |             ├─── staffName: "Jane Doe"
+      |      |             ├─── staffPost: "Nurse"
+      |      |             ├─── entryTime: "11:00 AM"
+      |      |             ├─── purpose: "Checkup"
+      |      |             └─── observations
+      |      |                     |
+      |      |                     ├─── observationId1
+      |      |                     |      |
+      |      |                     |      ├─── operationNo: "1"
+      |      |                     |      ├─── betPat: "HR"
+      |      |                     |      ├─── befAsept: "HW"
+      |      |                     |      ├─── aftBF: "PC"
+      |      |                     |      ├─── aftPat: "Missed"
+      |      |                     |      └─── aftPSurr: "Gloves"
+      |      |                     |
+      |      |                     └─── observationId2
+      |      |                            |
+      |      |                            ├─── operationNo: "2"
+      |      |                            ├─── betPat: "HR"
+      |      |                            ├─── befAsept: "HW"
+      |      |                            ├─── aftBF: "PC"
+      |      |                            ├─── aftPat: "Missed"
+      |      |                            └─── aftPSurr: "Gloves"
+      |
+      └─── entryId2
+             |
+             ├─── staffEntries
+                    |
+                    ├─── staffEntryId1
+                    |      |
+                    |      ├─── icuNumber: "3"
+                    |      ├─── staffName: "Alice"
+                    |      ├─── staffPost: "Technician"
+                    |      ├─── entryTime: "12:00 PM"
+                    |      ├─── purpose: "Routine Check"
+                    |      └─── observations
+                    |              |
+                    |              ├─── observationId1
+                    |              |      |
+                    |              |      ├─── operationNo: "1"
+                    |              |      ├─── betPat: "HR"
+                    |              |      ├─── befAsept: "HW"
+                    |              |      ├─── aftBF: "PC"
+                    |              |      ├─── aftPat: "Missed"
+                    |              |      └─── aftPSurr: "Gloves"
+                    |              |
+                    |              └─── observationId2
+                    |                     |
+                    |                     ├─── operationNo: "2"
+                    |                     ├─── betPat: "HR"
+                    |                     ├─── befAsept: "HW"
+                    |                     ├─── aftBF: "PC"
+                    |                     ├─── aftPat: "Missed"
+                    |                     └─── aftPSurr: "Gloves"
+                    |
+                    └─── staffEntryId2
+                           |
+                           ├─── icuNumber: "4"
+                           ├─── staffName: "Bob"
+                           ├─── staffPost: "Assistant"
+                           ├─── entryTime: "1:00 PM"
+                           ├─── purpose: "Emergency"
+                           └─── observations
+                                  |
+                                  ├─── observationId1
+                                  |      |
+                                  |      ├─── operationNo: "1"
+                                  |      ├─── betPat: "HR"
+                                  |      ├─── befAsept: "HW"
+                                  |      ├─── aftBF: "PC"
+                                  |      ├─── aftPat: "Missed"
+                                  |      └─── aftPSurr: "Gloves"
+                                  |
+                                  └─── observationId2
+                                         |
+                                         ├─── operationNo: "2"
+                                         ├─── betPat: "HR"
+                                         ├─── befAsept: "HW"
+                                         ├─── aftBF: "PC"
+                                         ├─── aftPat: "Missed"
+                                         └─── aftPSurr: "Gloves"
